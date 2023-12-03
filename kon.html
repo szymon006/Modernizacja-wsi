@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Modernizacja wsi</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+
+<div id="wrapper">
+
+  <header>
+    <img src="s.png" alt="dom" />
+  </header>
+
+  <nav>
+    <a class="menu" href="index.html">Modernizacja wsi</a>
+    <a class="menu" href="akt.html">Artykuły</a>
+    <a class="menu" href="ank.html">Ankieta</a>
+    <a class="menu active" href="kon.html">Kontakt</a>
+  </nav>
+
+  <section>
+    <article>
+      <table id="osoby">
+        <tr>
+          <td id="t"><img src="https://www.svgrepo.com/show/55317/circular-avatar.svg" id="zdj3" alt="postac"><p id="p">Szymon Markowski</p></td>
+          <td id="t"><img src="https://www.svgrepo.com/show/55317/circular-avatar.svg" id="zdj3" alt="postac"><p id="p">Piotr Markowski</p></td>  
+        </tr>
+        <tr>
+          <td id="t"><img src="https://www.svgrepo.com/show/55317/circular-avatar.svg" id="zdj3" alt="postac"><p id="p">Maciej Freda</p></td>
+          <td id="t"><img src="https://www.svgrepo.com/show/55317/circular-avatar.svg" id="zdj3" alt="postac"><p id="p">Marcel Iwanicki</p></td>  
+        </tr>
+      </table>
+
+      <br>
+      <br>
+      <form action="dane.php" method="post">
+        <h3>Chcesz zostawić dla nas wiadomość?</h3>
+
+
+        Imię:<br>  <input id="in" type="text"  name="w1" id="imie" minlength="3" maxlength="20" pattern="[^0-9]*" required > 
+        <br> 
+        Nazwisko:<br>  <input id="in" type="text" name="w2" id="nazwisko" minlength="3" maxlength="30" pattern="[^0-9]*" required >
+<br>
+        E-mail: <br> <input id="in" type="text" name="w3" id="mail" minlength="8" maxlength="50" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+        <br> 
+        Telefon:<br>  <input id="in" type="text" name="w4" id="telefon" minlength="9" maxlength="9" pattern="[^A-Za-z]*" required >
+<br>
+        Wiadomość: <br>
+          <textarea id="wiad" type="text" name="w5" id="wiadomosc" minlength="10" required > </textarea>
+          <br>
+          <br>
+          <input id="wy" type="reset" value="Wyczyść"/>
+
+          <input id="wy" type="submit" value="Wyślij" onclick="alertt()"/>
+          <br>     
+          <br>
+    
+    </form>
+    </article>
+
+  </section>
+
+  <footer>© Zespół orzeszków</footer>
+
+
+</div>
+
+  </body>
+
+  <script>
+
+    function alertt(){
+alert("Dziekujemy za przesłanie wiadomości!");
+    }
+</script>
+
+</html>

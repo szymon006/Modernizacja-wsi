@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 25px;
+}
+
+body {
+  background-color: #ddb;
+}
+
+header img {
+  width:100%;
+  height: 400px;
+  display: block;
+}
+
+#wrapper {
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+nav {
+  background-color: darkcyan;
+
+}
+
+nav a {}
+
+a.menu {
+  display: inline-block;
+  width: 24%;
+  padding: 15px 30px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size:30px;
+}
+
+a.menu:hover {
+  font-size:30px;
+  background-color: crimson;
+}
+
+.active {
+  font-size:30px;
+  background-color: crimson;
+}
+
+article {
+margin-top: 20px;
+margin-bottom: auto;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+footer { 
+  width: 100%;
+  background-color: crimson;
+  float: left;
+  clear: both;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  bottom:0;
+  }
+
+  #zdj, td{
+text-align: center;
+width: 445px;
+height: 800px;
+padding: 20px;
+  }
+
+  #zdj2{
+    text-align: center;
+    width: 445px;
+    height: 800px;
+    padding: 20px;
+    margin-bottom: 30px;
+      }
+    
+      #zdjecia, #osoby{
+        text-align: center;
+      }
+    
+      #zdj3, #t{
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    margin-left: 170px;
+      }
+    
+      #p{
+        text-align: center;
+        margin-left: 170px;
+      }
+    
+      form{
+        text-align: center;
+      }
+    
+      #wiad{
+        width: 850px;
+        height: 400px;
+      }
+    
+      #in{
+        width: 850px;
+      }
+    
+      #wy{
+        width: 424px;
+      }
+
