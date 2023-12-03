@@ -1,2 +1,0 @@
-# Modernizacja-wsi
-Modernizacja wsi
