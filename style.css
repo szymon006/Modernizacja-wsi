@@ -66,16 +66,23 @@ footer {
   bottom:0;
   }
 
-  #zdj, td{
+  #zdj{
 text-align: center;
-width: 445px;
+width: 100%;
 height: 800px;
 padding: 20px;
   }
 
+  td{
+    text-align: center;
+    width: 33%;
+    height: 800px;
+    padding: 20px;
+      }
+
   #zdj2{
     text-align: center;
-    width: 445px;
+    width: 100%;
     height: 800px;
     padding: 20px;
     margin-bottom: 30px;
@@ -85,17 +92,25 @@ padding: 20px;
         text-align: center;
       }
     
-      #zdj3, #t{
+      #zdj3{
     text-align: center;
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
     padding: 20px;
-    margin-left: 170px;
+
       }
+
+      #t{
+        text-align: center;
+        width: 50%;
+        height: 400px;
+        padding: 20px;
+
+          }
     
       #p{
         text-align: center;
-        margin-left: 170px;
+
       }
     
       form{
